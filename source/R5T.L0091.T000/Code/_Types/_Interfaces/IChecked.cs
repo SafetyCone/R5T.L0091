@@ -14,4 +14,12 @@ namespace R5T.L0091.T000
     public interface IChecked<out TCheck>
     {
     }
+
+    /// <summary>
+    /// Allows methods to communicate required (input) checks and performed (output) checks.
+    /// </summary>
+    [UtilityTypeMarker, TypeMarker]
+    public interface IChecked
+    {
+    }
 }
